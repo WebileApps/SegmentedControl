@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+	<com.webileapps.widgets.SegmentedControl 
+		style="@style/SegmentedControl"
+		android:id="@+id/radioGroup1"
+		android:layout_margin="10dip">
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="First" 
+			android:id="@+id/radio0"
+		 />
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="Second"
+			android:id="@+id/radio1" />
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="Third"
+			android:id="@+id/radio2"  />
+		<RadioButton
+			style="@style/SegmentedButton"
+			android:text="Four"
+			android:id="@+id/radio3" />
+	</com.webileapps.widgets.SegmentedControl>
+	
+		<com.webileapps.widgets.SegmentedControl 
+		style="@style/SegmentedControl"
+		android:id="@+id/radioGroup1"
+		android:layout_margin="10dip">
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="First" 
+			android:id="@+id/radio4"
+		 />
+		</com.webileapps.widgets.SegmentedControl>
+				<com.webileapps.widgets.SegmentedControl 
+		style="@style/SegmentedControl"
+		android:id="@+id/radioGroup1"
+		android:layout_margin="10dip">
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="First" 
+			android:id="@+id/radio10"
+		 />
+		<RadioButton 
+			style="@style/SegmentedButton"
+			android:text="Second" 
+			android:id="@+id/radio11"
+		 />
+		</com.webileapps.widgets.SegmentedControl>
+</LinearLayout>

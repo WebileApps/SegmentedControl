@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SegmentedControl">
+		<item name="android:layout_marginLeft">20dip</item>
+		<item name="android:layout_marginRight">20dip</item>
+		<item name="android:padding">5dip</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="SegmentedButton">
+		<item name="android:button">@null</item>
+		<item name="android:paddingTop">15dip</item>
+		<item name="android:paddingBottom">15dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:minHeight">38dip</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textColor">@color/segmented_button_color</item>
+	</style>
+</resources>
