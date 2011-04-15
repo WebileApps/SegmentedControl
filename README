@@ -1,0 +1,7 @@
+http://www.androidpatterns.com/uap_pattern/segmented-control says :
+
+"A segmented control is a horizontally aligned set of segments, containing 2-5 buttons, that act as filters on a set of data by selecting them."
+
+Isn't it just a Radio group styled differently? So is this. 
+
+Check out the screenshots and browse thru the drawables (courtesy naz).
